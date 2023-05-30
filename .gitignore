@@ -213,3 +213,10 @@ poetry.toml
 
 # LSP config files
 pyrightconfig.json
+
+data/*
+!data/train.zip
+!data/test.zip
+!data/Stats.txt
+
+save/
